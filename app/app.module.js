@@ -1,6 +1,10 @@
-var app = angular.module('SystemApp', [], function () {
+// Instance App Module
+var app = angular.module('SystemApp', [
+  'ui.router'
+  ]);
 
-}).controller('mainController', function ($scope) {
+// Main Controller 
+app.controller('mainController', function ($scope) {
 
         $scope.todos = [
             {
