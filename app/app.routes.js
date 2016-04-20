@@ -10,7 +10,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       .state('app.dashboard', {
          url: "/",
          templateUrl: "/app/components/dashboard/view.html",
-         controller: "homepage"
+         controller: "mainController"
       })
 
    $urlRouterProvider.otherwise("/");
